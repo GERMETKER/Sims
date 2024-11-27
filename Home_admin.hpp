@@ -13,6 +13,7 @@ public:
 	void Evict();//чтобы жизнь малиной не казалась
 
 
+
 private:
 	void BecameRuthless();//самое важное
 };
