@@ -5,8 +5,8 @@ class Home_liver : public Human
 {
 public:
 	void PayRent();
-	void Hide();
-	void HateHomeAdmin();
+	void Hide();//Прятаться от управляющего, пришедшего за деньгами
+	void HateHomeAdmin();//Потому что ему от вас нужны только деньги
 
 private:
 	int money;

@@ -6,11 +6,13 @@ class Home_admin : public Human
 public:
 	Home_admin()
 	{
-		BecameRuthless();
+		BecameRuthless();//обязательно
 	}
-	void CollectMoney();
-	void Populate();
-	void Evict();
+	void CollectMoney();//его самое любимое
+	void Populate();//кто-то должен платить деньги
+	void Evict();//чтобы жизнь малиной не казалась
+
+
 private:
 	void BecameRuthless();//самое важное
 };
